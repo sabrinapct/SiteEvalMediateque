@@ -1,0 +1,116 @@
+body{
+
+    font-family: 'Poiret One', cursive;
+    background-color: #e4dce4;
+    color :#602072;
+}
+
+
+
+.imgLogo{
+    max-height: 70px;
+}
+.jumbotron h1{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+header {
+    min-height: 70vh;
+    background-image: url(../img/people.jpg) ; 
+    font-family: 'Indie Flower', cursive;
+    background-attachment: fixed;
+    color:white;
+}
+
+
+header h1{
+    font-family: 'Poiret One', cursive;
+}
+
+header h2{
+    font-family: 'Indie Flower', cursive; 
+    margin:0 auto;
+    font-size: 3rem;
+}
+
+.presentation {
+    float:left;
+    font-family: 'Poiret One', cursive;
+}
+
+.presentation img{
+    max-height: 60vh;
+    max-width: 50vh;
+    margin-right: 20px;
+}
+.selectionInternautes, {
+    margin-top: 20vh;
+}
+.selectionInternautes h2,p {
+    text-align: center;
+    font-family: 'Poiret One', cursive;    
+}
+.selectionInternautes ul li{
+    position:relative;float:left;
+    width:150px;
+    height:200px;
+    padding:20px;
+    list-style:none;
+}
+/*permet de créer deux lignes
+.selectionInternautes ul li:nth-child(4n){clear:left;} */
+
+.selectionInternautes ul li a{
+    display:block;
+    overflow:hidden;
+    width:100px;
+    height:100px;
+    margin-top:0px;
+    margin-left:0px;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
+}
+
+.selectionInternautes ul li a:hover{
+    position:absolute;
+    width:200px;
+    height:250px;
+    margin-top:-56px;
+    margin-left:-56px;
+    z-index:100;
+    border:6px solid rgba(0,0,0,0.7);
+}
+
+.selectionInternautes ul li a img{
+    position:absolute;
+    width:120px;
+    height:170px;
+    z-index:20;
+    transition-property:width,height,z-index;
+    transition-duration:0.4s;
+}
+.selectionInternautes ul li a:hover img{
+    width:200px;
+    height:200px;
+    z-index:100;
+}
+
+#bientotDispo, titre{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    margin-left: 30px;
+}
+#footer{
+    background-color: grey;
+    font-family: 'Poiret One', cursive;
+    color: beige;
+}
+.rating {
+    list-style-type: none;
+    padding: 0;
+    color: #ffa000;
+}
+
+
